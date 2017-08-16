@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H2K-t7-pdo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CAD_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAD Simulator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofK-Pd-Iet">
+                                <rect key="frame" x="104" y="94" width="167" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oph-2O-XDj">
+                                <rect key="frame" x="37.5" y="365" width="300" height="42"/>
+                                <color key="backgroundColor" red="0.67452687030000003" green="0.0" blue="0.01418242324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="KDw-Xl-oTt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Mesa CAD">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="TBC-3n-GYC" kind="show" identifier="mesadetail" id="kHo-QP-JZw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7d1-uj-Lve">
+                                <rect key="frame" x="37.5" y="223" width="300" height="42"/>
+                                <color key="backgroundColor" red="0.6745268702507019" green="0.0" blue="0.014182423241436481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="mPG-s6-ybY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
+                                <state key="normal" title="Phoenix CAD">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="31c-s3-yRR" kind="show" identifier="phxdetail" id="kXX-CH-mdK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7d1-uj-Lve" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1hK-KN-YtP"/>
+                            <constraint firstItem="ofK-Pd-Iet" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="CLP-AH-2SI"/>
+                            <constraint firstItem="Oph-2O-XDj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ip3-uE-pV1"/>
+                            <constraint firstItem="ofK-Pd-Iet" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OvQ-9N-xiF"/>
+                            <constraint firstItem="Oph-2O-XDj" firstAttribute="top" secondItem="7d1-uj-Lve" secondAttribute="bottom" constant="100" id="bZe-jw-zDq"/>
+                            <constraint firstItem="7d1-uj-Lve" firstAttribute="top" secondItem="ofK-Pd-Iet" secondAttribute="bottom" constant="100" id="xs3-mX-CeT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="EYk-dA-ROt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Phoenix CAD-->
+        <scene sceneID="WZJ-ht-xst">
+            <objects>
+                <viewController id="31c-s3-yRR" customClass="PHXViewController" customModule="CAD_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="af7-yO-Vyc"/>
+                        <viewControllerLayoutGuide type="bottom" id="1DG-K9-clc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cHi-af-8Rd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OMo-4v-Std">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="vhi-Xy-lTv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vhi-Xy-lTv" id="UU8-uD-L2H">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="31c-s3-yRR" id="zym-Lr-ezc"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OMo-4v-Std" firstAttribute="leading" secondItem="cHi-af-8Rd" secondAttribute="leading" id="JYf-k5-V89"/>
+                            <constraint firstAttribute="trailing" secondItem="OMo-4v-Std" secondAttribute="trailing" id="UWb-yC-97Y"/>
+                            <constraint firstItem="OMo-4v-Std" firstAttribute="top" secondItem="cHi-af-8Rd" secondAttribute="top" id="Uaq-RD-M7E"/>
+                            <constraint firstItem="OMo-4v-Std" firstAttribute="bottom" secondItem="1DG-K9-clc" secondAttribute="top" id="apf-tm-EzO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Phoenix CAD" id="GUH-LD-FoH"/>
+                    <connections>
+                        <outlet property="phxtable" destination="OMo-4v-Std" id="exk-Ha-5Vm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhj-xH-ObB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920.79999999999995" y="-198.35082458770617"/>
+        </scene>
+        <!--Mesa CAD-->
+        <scene sceneID="DVt-F4-Jlo">
+            <objects>
+                <viewController id="TBC-3n-GYC" customClass="MesaViewController" customModule="CAD_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lgb-U0-YIA"/>
+                        <viewControllerLayoutGuide type="bottom" id="NQ5-nK-y3H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xqT-IG-DfA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-1P-c9C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="7HY-Wb-YKY">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7HY-Wb-YKY" id="cem-zH-eMG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="TBC-3n-GYC" id="gQT-FY-Cbb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Aof-1P-c9C" secondAttribute="trailing" id="XQi-ly-bTV"/>
+                            <constraint firstItem="Aof-1P-c9C" firstAttribute="top" secondItem="xqT-IG-DfA" secondAttribute="top" id="cDm-6K-m56"/>
+                            <constraint firstItem="Aof-1P-c9C" firstAttribute="leading" secondItem="xqT-IG-DfA" secondAttribute="leading" id="o9A-3r-mrx"/>
+                            <constraint firstItem="Aof-1P-c9C" firstAttribute="bottom" secondItem="NQ5-nK-y3H" secondAttribute="top" id="wi9-ma-w4t"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mesa CAD" id="QoP-JC-oTO"/>
+                    <connections>
+                        <outlet property="mesatable" destination="Aof-1P-c9C" id="bqa-eT-KSl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Kk-aS-vBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920.79999999999995" y="517.6911544227886"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aei-Jh-dQj">
+            <objects>
+                <navigationController id="H2K-t7-pdo" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J6N-Pi-Pih">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="W3i-sd-Z7w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WvV-95-uMm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="139"/>
+        </scene>
+    </scenes>
+</document>

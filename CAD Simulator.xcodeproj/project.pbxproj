@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2D83B61E5E210800371D23 /* PHXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D83B51E5E210800371D23 /* PHXViewController.swift */; };
+		2E2D83B81E5E28D000371D23 /* MesaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D83B71E5E28D000371D23 /* MesaViewController.swift */; };
+		2E65E4021E3D5D7E00454D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4011E3D5D7E00454D04 /* AppDelegate.swift */; };
+		2E65E4041E3D5D7E00454D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4031E3D5D7E00454D04 /* ViewController.swift */; };
+		2E65E4071E3D5D7E00454D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65E4051E3D5D7E00454D04 /* Main.storyboard */; };
+		2E65E4091E3D5D7E00454D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E65E4081E3D5D7E00454D04 /* Assets.xcassets */; };
+		2E65E40C1E3D5D7E00454D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65E40A1E3D5D7E00454D04 /* LaunchScreen.storyboard */; };
+		2E65E4171E3D5D7F00454D04 /* CAD_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4161E3D5D7F00454D04 /* CAD_SimulatorTests.swift */; };
+		2E65E4221E3D5D7F00454D04 /* CAD_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4211E3D5D7F00454D04 /* CAD_SimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E65E4131E3D5D7F00454D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65E3F61E3D5D7E00454D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65E3FD1E3D5D7E00454D04;
+			remoteInfo = "CAD Simulator";
+		};
+		2E65E41E1E3D5D7F00454D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65E3F61E3D5D7E00454D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65E3FD1E3D5D7E00454D04;
+			remoteInfo = "CAD Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E2D83B51E5E210800371D23 /* PHXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PHXViewController.swift; path = ../PHXViewController.swift; sourceTree = "<group>"; };
+		2E2D83B71E5E28D000371D23 /* MesaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesaViewController.swift; sourceTree = "<group>"; };
+		2E65E3FE1E3D5D7E00454D04 /* CAD Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAD Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65E4011E3D5D7E00454D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E65E4031E3D5D7E00454D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E65E4061E3D5D7E00454D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E65E4081E3D5D7E00454D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E65E40B1E3D5D7E00454D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E65E40D1E3D5D7E00454D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65E4121E3D5D7F00454D04 /* CAD SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAD SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65E4161E3D5D7F00454D04 /* CAD_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAD_SimulatorTests.swift; sourceTree = "<group>"; };
+		2E65E4181E3D5D7F00454D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65E41D1E3D5D7F00454D04 /* CAD SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAD SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65E4211E3D5D7F00454D04 /* CAD_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAD_SimulatorUITests.swift; sourceTree = "<group>"; };
+		2E65E4231E3D5D7F00454D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E65E3FB1E3D5D7E00454D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E40F1E3D5D7F00454D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E41A1E3D5D7F00454D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E65E3F51E3D5D7E00454D04 = {
+			isa = PBXGroup;
+			children = (
+				2E65E4001E3D5D7E00454D04 /* CAD Simulator */,
+				2E65E4151E3D5D7F00454D04 /* CAD SimulatorTests */,
+				2E65E4201E3D5D7F00454D04 /* CAD SimulatorUITests */,
+				2E65E3FF1E3D5D7E00454D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E65E3FF1E3D5D7E00454D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E65E3FE1E3D5D7E00454D04 /* CAD Simulator.app */,
+				2E65E4121E3D5D7F00454D04 /* CAD SimulatorTests.xctest */,
+				2E65E41D1E3D5D7F00454D04 /* CAD SimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E65E4001E3D5D7E00454D04 /* CAD Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				2E65E4011E3D5D7E00454D04 /* AppDelegate.swift */,
+				2E65E4031E3D5D7E00454D04 /* ViewController.swift */,
+				2E2D83B51E5E210800371D23 /* PHXViewController.swift */,
+				2E2D83B71E5E28D000371D23 /* MesaViewController.swift */,
+				2E65E4051E3D5D7E00454D04 /* Main.storyboard */,
+				2E65E4081E3D5D7E00454D04 /* Assets.xcassets */,
+				2E65E40A1E3D5D7E00454D04 /* LaunchScreen.storyboard */,
+				2E65E40D1E3D5D7E00454D04 /* Info.plist */,
+			);
+			path = "CAD Simulator";
+			sourceTree = "<group>";
+		};
+		2E65E4151E3D5D7F00454D04 /* CAD SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65E4161E3D5D7F00454D04 /* CAD_SimulatorTests.swift */,
+				2E65E4181E3D5D7F00454D04 /* Info.plist */,
+			);
+			path = "CAD SimulatorTests";
+			sourceTree = "<group>";
+		};
+		2E65E4201E3D5D7F00454D04 /* CAD SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65E4211E3D5D7F00454D04 /* CAD_SimulatorUITests.swift */,
+				2E65E4231E3D5D7F00454D04 /* Info.plist */,
+			);
+			path = "CAD SimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E65E3FD1E3D5D7E00454D04 /* CAD Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65E4261E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD Simulator" */;
+			buildPhases = (
+				2E65E3FA1E3D5D7E00454D04 /* Sources */,
+				2E65E3FB1E3D5D7E00454D04 /* Frameworks */,
+				2E65E3FC1E3D5D7E00454D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAD Simulator";
+			productName = "CAD Simulator";
+			productReference = 2E65E3FE1E3D5D7E00454D04 /* CAD Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E65E4111E3D5D7F00454D04 /* CAD SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65E4291E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD SimulatorTests" */;
+			buildPhases = (
+				2E65E40E1E3D5D7F00454D04 /* Sources */,
+				2E65E40F1E3D5D7F00454D04 /* Frameworks */,
+				2E65E4101E3D5D7F00454D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65E4141E3D5D7F00454D04 /* PBXTargetDependency */,
+			);
+			name = "CAD SimulatorTests";
+			productName = "CAD SimulatorTests";
+			productReference = 2E65E4121E3D5D7F00454D04 /* CAD SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E65E41C1E3D5D7F00454D04 /* CAD SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65E42C1E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD SimulatorUITests" */;
+			buildPhases = (
+				2E65E4191E3D5D7F00454D04 /* Sources */,
+				2E65E41A1E3D5D7F00454D04 /* Frameworks */,
+				2E65E41B1E3D5D7F00454D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65E41F1E3D5D7F00454D04 /* PBXTargetDependency */,
+			);
+			name = "CAD SimulatorUITests";
+			productName = "CAD SimulatorUITests";
+			productReference = 2E65E41D1E3D5D7F00454D04 /* CAD SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E65E3F61E3D5D7E00454D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jennifer Carlson";
+				TargetAttributes = {
+					2E65E3FD1E3D5D7E00454D04 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KU552Z47L4;
+						ProvisioningStyle = Automatic;
+					};
+					2E65E4111E3D5D7F00454D04 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65E3FD1E3D5D7E00454D04;
+					};
+					2E65E41C1E3D5D7F00454D04 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65E3FD1E3D5D7E00454D04;
+					};
+				};
+			};
+			buildConfigurationList = 2E65E3F91E3D5D7E00454D04 /* Build configuration list for PBXProject "CAD Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E65E3F51E3D5D7E00454D04;
+			productRefGroup = 2E65E3FF1E3D5D7E00454D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E65E3FD1E3D5D7E00454D04 /* CAD Simulator */,
+				2E65E4111E3D5D7F00454D04 /* CAD SimulatorTests */,
+				2E65E41C1E3D5D7F00454D04 /* CAD SimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E65E3FC1E3D5D7E00454D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65E40C1E3D5D7E00454D04 /* LaunchScreen.storyboard in Resources */,
+				2E65E4091E3D5D7E00454D04 /* Assets.xcassets in Resources */,
+				2E65E4071E3D5D7E00454D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E4101E3D5D7F00454D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E41B1E3D5D7F00454D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E65E3FA1E3D5D7E00454D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2D83B81E5E28D000371D23 /* MesaViewController.swift in Sources */,
+				2E65E4041E3D5D7E00454D04 /* ViewController.swift in Sources */,
+				2E65E4021E3D5D7E00454D04 /* AppDelegate.swift in Sources */,
+				2E2D83B61E5E210800371D23 /* PHXViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E40E1E3D5D7F00454D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65E4171E3D5D7F00454D04 /* CAD_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65E4191E3D5D7F00454D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65E4221E3D5D7F00454D04 /* CAD_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E65E4141E3D5D7F00454D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65E3FD1E3D5D7E00454D04 /* CAD Simulator */;
+			targetProxy = 2E65E4131E3D5D7F00454D04 /* PBXContainerItemProxy */;
+		};
+		2E65E41F1E3D5D7F00454D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65E3FD1E3D5D7E00454D04 /* CAD Simulator */;
+			targetProxy = 2E65E41E1E3D5D7F00454D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E65E4051E3D5D7E00454D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65E4061E3D5D7E00454D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E65E40A1E3D5D7E00454D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65E40B1E3D5D7E00454D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E65E4241E3D5D7F00454D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E65E4251E3D5D7F00454D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E65E4271E3D5D7F00454D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU552Z47L4;
+				INFOPLIST_FILE = "CAD Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E65E4281E3D5D7F00454D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU552Z47L4;
+				INFOPLIST_FILE = "CAD Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2E65E42A1E3D5D7F00454D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CAD SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAD Simulator.app/CAD Simulator";
+			};
+			name = Debug;
+		};
+		2E65E42B1E3D5D7F00454D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CAD SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAD Simulator.app/CAD Simulator";
+			};
+			name = Release;
+		};
+		2E65E42D1E3D5D7F00454D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CAD SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CAD Simulator";
+			};
+			name = Debug;
+		};
+		2E65E42E1E3D5D7F00454D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CAD SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JenniferCarlson.CAD-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CAD Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E65E3F91E3D5D7E00454D04 /* Build configuration list for PBXProject "CAD Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65E4241E3D5D7F00454D04 /* Debug */,
+				2E65E4251E3D5D7F00454D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E65E4261E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65E4271E3D5D7F00454D04 /* Debug */,
+				2E65E4281E3D5D7F00454D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E65E4291E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65E42A1E3D5D7F00454D04 /* Debug */,
+				2E65E42B1E3D5D7F00454D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E65E42C1E3D5D7F00454D04 /* Build configuration list for PBXNativeTarget "CAD SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65E42D1E3D5D7F00454D04 /* Debug */,
+				2E65E42E1E3D5D7F00454D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E65E3F61E3D5D7E00454D04 /* Project object */;
+}
