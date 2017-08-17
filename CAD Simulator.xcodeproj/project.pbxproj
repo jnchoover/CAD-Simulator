@@ -16,6 +16,7 @@
 		2E65E40C1E3D5D7E00454D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65E40A1E3D5D7E00454D04 /* LaunchScreen.storyboard */; };
 		2E65E4171E3D5D7F00454D04 /* CAD_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4161E3D5D7F00454D04 /* CAD_SimulatorTests.swift */; };
 		2E65E4221E3D5D7F00454D04 /* CAD_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65E4211E3D5D7F00454D04 /* CAD_SimulatorUITests.swift */; };
+		74FE93B71F46014600421ABC /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE93B61F46014600421ABC /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2E65E41D1E3D5D7F00454D04 /* CAD SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAD SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65E4211E3D5D7F00454D04 /* CAD_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAD_SimulatorUITests.swift; sourceTree = "<group>"; };
 		2E65E4231E3D5D7F00454D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FE93B61F46014600421ABC /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2E65E4081E3D5D7E00454D04 /* Assets.xcassets */,
 				2E65E40A1E3D5D7E00454D04 /* LaunchScreen.storyboard */,
 				2E65E40D1E3D5D7E00454D04 /* Info.plist */,
+				74FE93B61F46014600421ABC /* Address.swift */,
 			);
 			path = "CAD Simulator";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				2E65E4041E3D5D7E00454D04 /* ViewController.swift in Sources */,
 				2E65E4021E3D5D7E00454D04 /* AppDelegate.swift in Sources */,
 				2E2D83B61E5E210800371D23 /* PHXViewController.swift in Sources */,
+				74FE93B71F46014600421ABC /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
